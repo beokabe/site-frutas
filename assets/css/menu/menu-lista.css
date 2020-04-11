@@ -1,12 +1,6 @@
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
     .menu ul {
-        position: relative;
-        right: 50px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .menu ul {
-        position: static;
+        text-align: center;
+        padding: 10px;
     }
 }

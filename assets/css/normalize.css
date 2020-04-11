@@ -30,6 +30,8 @@ body {
 
 main {
     display: block;
+    min-height: 190vh;
+    max-height: 1200vh;
 }
 
 /**
@@ -147,6 +149,8 @@ sup {
 
 img {
     border-style: none;
+    /* width: 3vw; */
+    inline-size: -webkit-fill-available;
 }
 
 /* Forms

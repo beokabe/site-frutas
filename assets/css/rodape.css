@@ -1,12 +1,13 @@
 .rodape {
    height: 15vh;
-   background-color: #ccc;
+   background-image: -webkit-gradient(linear,left bottom,left top,from(#B00020),to(#FF5252));
+   color: #fff;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-top: 50px;
 }
 
-@media screen and (min-width: 0) {
-    /* Implementar */
-}
-
-@media screen and (min-width: 768px) {
-    /* Implementar */
+.rodape p {
+    font-size: 27px;
 }

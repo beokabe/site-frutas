@@ -30,7 +30,6 @@
     <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
     <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet" />
     <link href="./assets/css/receita/receitas.css" rel="stylesheet" />
-    <link href="./assets/css/receita/receitas-fotos.css" rel="stylesheet" />
     <link href="./assets/css/receita/receita-card-group.css" rel="stylesheet" />
     <link href="./assets/css/receita/receita-card.css" rel="stylesheet" />
     <link href="./assets/css/receita/receita-imagem.css" rel="stylesheet" />
@@ -42,30 +41,26 @@
     <link href="./assets/css/quemSomos/quem-somos-titulo.css" rel="stylesheet" />
     <link href="./assets/css/quemSomos/quem-somos-descricao.css" rel="stylesheet" />
     <link href="./assets/css/quemSomos/quem-somos-pessoas.css" rel="stylesheet" />
-    <link href="./assets/css/pessoa/pessoa.css" rel="stylesheet" />
     <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
     <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
     <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
     <link href="./assets/css/rodape.css" rel="stylesheet" />
-    <link href="./assets/css/rodape/rodape-contato.css" rel="stylesheet" />
-    <link href="./assets/css/rodape/rodape-contato-info.css" rel="stylesheet" />
-    <link href="./assets/css/rodape/blocos.css" rel="stylesheet" />
     <link href="./assets/css/rodape/rodape-contato-bloco.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header class="cabecalho">
+     <header class="cabecalho">
         <img class="logo" src="assets/img/logo.jpg" alt="Fruta & Fruto" />
         <nav class="menu">
             <ul>
-                <li><a href="#" id=inicio>Início</a></li>
+                <li><a href="#">Início</a></li>
                 <li><a href="#/receitas">receitas</a></li>
                 <li><a href="#/quemsomos">quem somos</a></li>
                 <li><a href="#/comunidades">comunidades</a></li>
             </ul>
         </nav>
-    </header>
-    <main class="container">
+    </header> 
+     <main class="container">
         <section class="banner">
             <div class="banner-imagem">
                 <div class="banner-titulo">
@@ -83,13 +78,10 @@
         </section>
         <section class="receitas">
 
-            <div class="receitas-fotos">
+                <ul class="card-group">
 
-                <div class="card-group">
-
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/tigela-de-abacate.jpg" alt="Tigela de abacate"></a>
+                    <li class="card">
+                        <img src="assets/img/receitas/tigela-de-abacate.jpg" alt="Tigela de abacate">
                         <div class="receita-titulo">
                             <h3>Tigela de abacate</h3>
                         </div>
@@ -100,10 +92,10 @@
                            
                         </div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/salada-de-kiwi.jpg" alt="Salada de kiwi"></a>
+                    </li>
+
+                      <li class="card">
+                            <img src="assets/img/receitas/salada-de-kiwi.jpg" alt="Salada de kiwi">
                         <div class="receita-titulo">
                             <h3>Salada de kiwi</h3>
                         </div>
@@ -112,10 +104,10 @@
                         </div>
                         <div class="receita-conteudo"></div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/mix-de-vegetais.jpg" alt="Mix de vegetais"></a>
+                    </li>
+
+                    <li class="card">
+                        <img src="assets/img/receitas/mix-de-vegetais.jpg" alt="Mix de vegetais">
                         <div class="receita-titulo">
                             <h3>Mix de vegetais</h3>
                         </div>
@@ -124,15 +116,10 @@
                         </div>
                         <div class="receita-conteudo"></div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
 
-                </div>
-
-                <div class="card-group">
-
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/pimentoes-a-juliana.jpg" alt="Pimentões a juliana"></a>
+                        
+                    <li class="card">
+                         <img src="assets/img/receitas/pimentoes-a-juliana.jpg" alt="Pimentões a juliana">
                         <div class="receita-titulo">
                             <h3>Pimentões a juliana</h3>
                         </div>
@@ -141,10 +128,10 @@
                         </div>
                         <div class="receita -conteudo"></div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/prato-oriental.jpg" alt="Prato oriental"></a>
+                    </li>
+
+                    <li class="card">
+                        <img src="assets/img/receitas/prato-oriental.jpg" alt="Prato oriental">
                         <div class="receita-titulo">
                             <h3>Prato oriental</h3>
                         </div>
@@ -153,10 +140,10 @@
                         </div>
                         <div class="receita-conteudo"></div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
-                    <div class="card">
-                        <a target="_blank" href="#">
-                            <img src="assets/img/receitas/beterrabas-assadas.jpg" alt="Beterrabas Assadas"></a>
+                    </li>
+
+                    <li class="card">
+                        <img src="assets/img/receitas/beterrabas-assadas.jpg" alt="Beterrabas Assadas">
                         <div class="receita-titulo">
                             <h3>Beterrabas assadas</h3>
                         </div>
@@ -165,11 +152,13 @@
                         </div>
                         <div class="receita-conteudo"></div>
                         <div class="receita-botao">Ver receita</div>
-                    </div>
+                    </li>
+                    </li>
 
-                </div>
-        </section>
-        <section class="quem-somos">
+                </ul>
+                
+        </section> 
+          <section class="quem-somos">
 
             <div class="quem-somos-titulo">
                 <h2>Quem somos</h2>
@@ -208,19 +197,14 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </section> 
+    </main> 
     <footer class="rodape">
-        <div class="rodape-contato">
-            <div class="contato-info">
             <p>Contato</p>
-        </div>
-         <div class="blocos">
             <div class="rodape-contato-bloco"></div>
             <div class="rodape-contato-bloco"></div>
-        </div>
         </div>  
-    </footer>
+    </footer> 
 </body>
 
 </html>

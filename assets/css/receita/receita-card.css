@@ -1,19 +1,37 @@
 .card {
     border: 1px solid grey;
     background-color: #fff;
-    height: 360px;
+    min-height: 360px;
+    transition: transform 1s, filter 2s;
 }
 
-.card:hover {-webkit-text-stroke: lightcyan;}
 
 @media screen and (min-width: 0) {
     .card {
-    margin: 60px 80px 10px 80px;
-}
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .card {
-    margin: 0 80px 10px 80px;
-}
+        max-width: 288px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+}  
+
+
+@media screen and (min-width: 1100px) {
+    .card {
+        max-width: 288px;
+        margin: 0px 30px;
+    }
+}    
+
+
+    .card:hover {
+        transform: scale(1.1);
+        filter: brightness(0.9); 
+    }
 }

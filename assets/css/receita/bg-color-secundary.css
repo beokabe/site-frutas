@@ -1,0 +1,9 @@
+.bg-color-secundary {
+    background: -webkit-gradient(linear, left bottom, left top, from(#F38E1B), to(#90BC44));
+    width: -webkit-fill-available;
+    z-index: -1;
+    border: 200px;
+    position: absolute;
+    height: -webkit-fill-available;
+    box-shadow:  1px 1px 3px grey;
+}

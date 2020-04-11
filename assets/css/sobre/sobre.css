@@ -1,7 +1,6 @@
 .sobre {
     text-align: center;
     min-height: 30vh;
-    background-color: #f9f5f0;
     display: grid;
     align-content: center;
 }

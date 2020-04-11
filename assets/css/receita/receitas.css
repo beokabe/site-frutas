@@ -9,3 +9,12 @@
     background-image: -webkit-gradient(linear, left bottom, left top, from(#FF5252), to(#B00020));
   }
 }
+
+
+@media screen and (min-width: 1100px) {
+  .receitas {
+    box-shadow: 1px 0px 5px black;
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+  }
+}

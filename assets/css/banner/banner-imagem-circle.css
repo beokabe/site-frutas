@@ -8,16 +8,18 @@
     position     : absolute;
     box-shadow   : 2px 2px 3px black;
     cursor       : pointer;
-    transition   : background-color 0.3s;
+    transition   : background-color 0.3s, transform 0.6s;
 }
 
 .banner-imagem-circle:hover {
-    background-color: #fff;
+   background-color: #fff;
+   transform: scale(0.8);
 }
 
 .banner-imagem-circle:nth-child(2) {
     left: 49%;
 }
+
 
 .banner-imagem-circle:nth-child(3) {
     left: 53%;

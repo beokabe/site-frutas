@@ -10,11 +10,15 @@
   right : 10px;
   bottom: 5px;
 
+  transition: transform 1s;
+
   cursor: pointer;
 }
 
 .arrow-down:hover {
   filter: brightness(0.8);
+  transform: rotate(180deg);
+
 }
 
 .arrow {

@@ -1,19 +1,11 @@
 .receitas {
-  display: flex;
-  /* background-color: #eee; */
-  margin-top: 20px;
-  
-}
-
-@media screen and (min-width: 0) {
-  .receitas {
-    min-height: 130vh;
-  } 
+  display : flex;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .receitas {
-    max-height: 145vh;
-    background-image: -webkit-gradient(linear,left bottom,left top,from(#FF5252),to(#B00020));
-  } 
+    min-height      : 145vh;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#FF5252), to(#B00020));
+  }
 }

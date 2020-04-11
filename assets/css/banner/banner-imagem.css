@@ -1,28 +1,28 @@
 .banner-imagem {
-    background: url("../../img/banner.jpg") no-repeat center center local;
-    color: #fff;
+    background : url("../../img/banner.jpg") no-repeat center center local;
+    color      : #fff;
     text-shadow: 2px 2px 3px black;
-    display: flex;
-    text-align: center;
+    display    : flex;
+    text-align : center;
     align-items: center;
 }
 
 @media screen and (min-width: 0) {
     .banner-imagem {
         -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 120vh;
+        -moz-background-size   : cover;
+        -o-background-size     : cover;
+        background-size        : cover;
+        height                 : 120vh;
     }
 }
 
 @media screen and (min-width: 768px) {
     .banner-imagem {
         -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 60vh;
+        -moz-background-size   : cover;
+        -o-background-size     : cover;
+        background-size        : cover;
+        height                 : 60vh;
     }
 }

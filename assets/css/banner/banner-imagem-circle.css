@@ -1,0 +1,39 @@
+.banner-imagem-circle {
+    width        : 20px;
+    height       : 20px;
+    border       : 5px solid #fff;
+    border-radius: 100%;
+    top          : 65%;
+    left         : 45%;
+    position     : absolute;
+    box-shadow   : 2px 2px 3px black;
+    cursor       : pointer;
+    transition   : background-color 0.3s;
+}
+
+.banner-imagem-circle:hover {
+    background-color: #fff;
+}
+
+.banner-imagem-circle:nth-child(2) {
+    left: 49%;
+}
+
+.banner-imagem-circle:nth-child(3) {
+    left: 53%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-imagem-circle {
+        top : 120%;
+        left: 35%;
+    }
+
+    .banner-imagem-circle:nth-child(2) {
+        left: 45%;
+    }
+
+    .banner-imagem-circle:nth-child(3) {
+        left: 55%;
+    }
+}

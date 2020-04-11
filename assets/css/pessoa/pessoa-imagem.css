@@ -1,3 +1,5 @@
 .pessoa img {
   border-radius: 100%;
+  box-shadow   : 2px 1px 5px black;
+  position     : relative;
 }

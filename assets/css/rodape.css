@@ -1,11 +1,10 @@
 .rodape {
-   height: 15vh;
-   background-image: -webkit-gradient(linear,left bottom,left top,from(#B00020),to(#FF5252));
-   color: #fff;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   margin-top: 50px;
+    height          : 15vh;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#B00020), to(#FF5252));
+    color           : #fff;
+    display         : flex;
+    justify-content : flex-end;
+    align-items     : center;
 }
 
 .rodape p {

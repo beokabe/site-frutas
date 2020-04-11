@@ -1,16 +1,18 @@
 .receita-botao {
-  max-width: -webkit-fill-available;
-  background: #8d0606;
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  display: inline-block;
-  text-align: center;
+  max-width      : -webkit-fill-available;
+  background     : #8d0606;
+  border         : 0;
+  border-radius  : 5px;
+  color          : #fff;
+  display        : inline-block;
+  text-align     : center;
   text-decoration: none;
-  font-size: 16px;
-  line-height: 35px;
-  cursor: pointer;
-  transition: filter 0.3s;
+  font-size      : 17px;
+  line-height    : 35px;
+  cursor         : pointer;
+  font-family    : 'Pacifico', cursive;
+  position       : relative;
+  transition     : filter cubic-bezier(0, 1.6, 1, -0.47);
 }
 
 .receita-botao:hover {
@@ -18,17 +20,17 @@
 }
 
 @media screen and (min-width: 0) {
-    .receita-botao {
-      width: -webkit-fill-available;
-      margin: 10px 0;
-      height: 40px;
-    }
+  .receita-botao {
+    width : -webkit-fill-available;
+    margin: 10px 0;
+    height: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-   .receita-botao {
-      width: 90px;
-      margin-left: 16px;
-      margin-bottom: 15px;
-    }
+  .receita-botao {
+    width        : 90px;
+    margin-left  : 16px;
+    margin-bottom: 15px;
+  }
 }

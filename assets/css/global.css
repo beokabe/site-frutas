@@ -1,5 +1,12 @@
-.cabecalho, .banner, .banner-imagem, .banner-titulo, .sobre, .receitas, .quem-somos, .rodape {
-  width: 100%;
+.cabecalho,
+.banner,
+.banner-imagem,
+.banner-titulo,
+.sobre,
+.receitas,
+.quem-somos,
+.rodape {
+  width : 100%;
   cursor: default;
 }
 
@@ -10,14 +17,14 @@
 body::-webkit-scrollbar {
   width: 2em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-   background-image: -webkit-gradient(linear,left bottom,left top,from(#B00020),to(#D32F2F));
-  outline: 1px solid slategrey; 
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#B00020), to(#D32F2F));
+  outline         : 1px solid slategrey;
 }
 
 
@@ -27,7 +34,7 @@ h1 {
 
 h2 {
   font-family: 'Pacifico', cursive;
-  color: rgb(184, 10, 10);
+  color      : rgb(184, 10, 10);
 }
 
 p {

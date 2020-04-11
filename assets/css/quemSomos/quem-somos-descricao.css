@@ -1,0 +1,17 @@
+.quem-somos-descricao {
+  margin: 27px;
+  color: grey;
+  text-shadow: 1px 0.3px 0.4px #0101;
+}
+
+@media screen and (min-width: 0) {
+  .quem-somos-descricao {
+      font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quem-somos-descricao {
+      font-size: 25px;
+  }
+}

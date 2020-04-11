@@ -1,0 +1,31 @@
+.menu li {
+    display: inline-flex;
+}
+
+@media screen and (min-width: 0) {
+    .menu li {
+        padding   : 5px;
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .menu li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu li {
+        padding   : 10px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu li {
+        padding   : 10px;
+        margin-top: 15px;
+        font-size : 20px;
+    }
+}

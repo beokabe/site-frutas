@@ -1,0 +1,18 @@
+.receita img {
+  max-height: 100%;
+  min-width: 100%;
+  margin-top: 20px;
+}
+
+.receita img:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 0) {
+
+}
+
+@media screen and (min-width: 768px) {
+ 
+}

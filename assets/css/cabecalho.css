@@ -1,0 +1,16 @@
+.cabecalho {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+}

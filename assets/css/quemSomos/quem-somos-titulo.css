@@ -1,0 +1,11 @@
+@media screen and (min-width: 0) {
+  .quem-somos-titulo {
+      font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quem-somos-titulo {
+      font-size: 3vw;
+  }
+}

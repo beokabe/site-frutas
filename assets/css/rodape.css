@@ -1,0 +1,12 @@
+.rodape {
+   height: 15vh;
+   background-color: #ccc;
+}
+
+@media screen and (min-width: 0) {
+    /* Implementar */
+}
+
+@media screen and (min-width: 768px) {
+    /* Implementar */
+}

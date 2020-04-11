@@ -1,0 +1,21 @@
+.cabecalho, .banner, .banner-imagem, .banner-titulo, .sobre, .receitas, .quem-somos, .rodape {
+  width: 100%;
+  cursor: default;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: rgb(184, 10, 10);
+}
+
+p {
+  font-family: 'Baloo Paaji 2', cursive;
+}

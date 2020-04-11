@@ -1,0 +1,24 @@
+.sobre-descricao {
+  padding: 20px;
+  margin: auto;
+  width: 70%;
+  color: rgb(163, 163, 163);
+}
+
+@media screen and (min-width: 0) {
+  .sobre-descricao {
+    font-size: 20px;
+    box-sizing: content-box;
+    text-align: justify;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sobre-descricao {
+    /* font-size: 16px; */
+    font-size: 2vw;
+    text-align: center;
+    width: 65%;
+  }
+}

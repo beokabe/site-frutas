@@ -1,0 +1,5 @@
+.blocos {
+  display: inline-flex;
+  position: relative;
+  left: 95%;
+}

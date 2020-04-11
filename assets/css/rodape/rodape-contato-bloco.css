@@ -1,0 +1,10 @@
+.rodape-contato-bloco {
+  width           : 60px;
+  height: 50px;
+  background-color: rgb(184, 10, 10);
+  border-radius: 2px;
+}
+
+.blocos > .rodape-contato-bloco {
+  margin-left: 9px;
+}

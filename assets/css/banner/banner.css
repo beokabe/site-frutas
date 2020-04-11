@@ -1,0 +1,15 @@
+.banner {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .banner {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .banner {
+        height: 60vh;
+    }
+}

@@ -1,0 +1,21 @@
+.receita-botao { 
+  width: 38%;
+  height: 35px;
+  background: #8d0606;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 35px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.receita-botao:hover { 
+  filter: brightness(90%);
+}
